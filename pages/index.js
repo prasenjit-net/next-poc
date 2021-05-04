@@ -8,7 +8,7 @@ export default function Home() {
     setInp(e.target.value);
   }
   const callApi = async () => {
-    const resp = await fetch("http://localhost:3000/api/hello");
+    const resp = await fetch("/api/hello");
     const data = await resp.json();
     setInp(data);
   };
