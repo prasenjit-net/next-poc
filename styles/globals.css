@@ -14,3 +14,8 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.containerBody {
+  display: flex;
+  flex-direction: column;
+}
