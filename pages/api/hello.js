@@ -1,5 +1,5 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 export default (req, res) => {
-  res.status(200).json({ name: 'John Doe', env: { cid: process.env.GITHUB_ID, csc: process.env.GITHUB_SECRET } })
+  res.status(200).json({ name: 'John Doe' })
 }
