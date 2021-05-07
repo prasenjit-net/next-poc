@@ -9,6 +9,8 @@ function Navbar() {
             <Link href="/auth">Auth Link</Link>
             <Link href="/blog/world">Blog World</Link>
             <Link href="/ssr">SSR</Link>
+            <Link href="/page1">Typescript</Link>
+            <Link href="/test">MDX</Link>
         </div>
     )
 }
