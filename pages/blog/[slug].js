@@ -1,5 +1,4 @@
 import React from 'react'
-import { useRouter } from 'next/router'
 
 function BlogPost(params) {
     return (
@@ -14,7 +13,7 @@ export default BlogPost
 export async function getStaticProps({ params }) {
     return {
         props: params,
-        revalidate: 60,
+        revalidate: 600,
     }
 }
 
@@ -24,6 +23,6 @@ export async function getStaticPaths() {
             { params: { slug: 'hello' } },
             { params: { slug: 'world' } }
         ],
-        fallback: 'blocking'
+        fallback: true
     };
 }
