@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import style from '../../styles/Navbar.module.css'
+import style from '../styles/Navbar.module.css'
 
 function Navbar() {
     return (
